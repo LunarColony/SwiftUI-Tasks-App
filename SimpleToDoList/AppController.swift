@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AppController.swift
 //  SimpleToDoList
 //
 //  Created by Yunis Farah on 04/08/2020.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AppController: View {
     var body: some View {
-        AppView()
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AppController_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AppController()
     }
 }
