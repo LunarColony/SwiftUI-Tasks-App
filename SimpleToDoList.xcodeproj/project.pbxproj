@@ -14,12 +14,10 @@
 		E92AA60524D9C08B0086E6D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92AA60424D9C08B0086E6D4 /* Preview Assets.xcassets */; };
 		E92AA60824D9C08B0086E6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92AA60624D9C08B0086E6D4 /* LaunchScreen.storyboard */; };
 		E92AA61024D9C22E0086E6D4 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92AA60F24D9C22E0086E6D4 /* AppView.swift */; };
-		E92AA61224D9CB410086E6D4 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92AA61124D9CB410086E6D4 /* AppModel.swift */; };
-		E92AA61424D9D1A40086E6D4 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92AA61324D9D1A40086E6D4 /* AppController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E92AA5F824D9C0890086E6D4 /* SimpleToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92AA5F824D9C0890086E6D4 /* SwiftUITasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92AA5FB24D9C0890086E6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E92AA5FD24D9C0890086E6D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E92AA5FF24D9C0890086E6D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,8 +26,6 @@
 		E92AA60724D9C08B0086E6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E92AA60924D9C08B0086E6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E92AA60F24D9C22E0086E6D4 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
-		E92AA61124D9CB410086E6D4 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
-		E92AA61324D9D1A40086E6D4 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +50,7 @@
 		E92AA5F924D9C0890086E6D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E92AA5F824D9C0890086E6D4 /* SimpleToDoList.app */,
+				E92AA5F824D9C0890086E6D4 /* SwiftUITasks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,8 +62,6 @@
 				E92AA5FD24D9C0890086E6D4 /* SceneDelegate.swift */,
 				E92AA5FF24D9C0890086E6D4 /* ContentView.swift */,
 				E92AA60F24D9C22E0086E6D4 /* AppView.swift */,
-				E92AA61324D9D1A40086E6D4 /* AppController.swift */,
-				E92AA61124D9CB410086E6D4 /* AppModel.swift */,
 				E92AA60124D9C08B0086E6D4 /* Assets.xcassets */,
 				E92AA60624D9C08B0086E6D4 /* LaunchScreen.storyboard */,
 				E92AA60924D9C08B0086E6D4 /* Info.plist */,
@@ -101,7 +95,7 @@
 			);
 			name = SimpleToDoList;
 			productName = SimpleToDoList;
-			productReference = E92AA5F824D9C0890086E6D4 /* SimpleToDoList.app */;
+			productReference = E92AA5F824D9C0890086E6D4 /* SwiftUITasks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,9 +152,7 @@
 				E92AA61024D9C22E0086E6D4 /* AppView.swift in Sources */,
 				E92AA5FC24D9C0890086E6D4 /* AppDelegate.swift in Sources */,
 				E92AA5FE24D9C0890086E6D4 /* SceneDelegate.swift in Sources */,
-				E92AA61224D9CB410086E6D4 /* AppModel.swift in Sources */,
 				E92AA60024D9C0890086E6D4 /* ContentView.swift in Sources */,
-				E92AA61424D9D1A40086E6D4 /* AppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +298,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LunarColony.SimpleToDoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftUITasks;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -326,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LunarColony.SimpleToDoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftUITasks;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
