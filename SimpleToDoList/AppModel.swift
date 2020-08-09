@@ -8,7 +8,6 @@
 
 import SwiftUI
 
-
 enum Catergory {
     case work
     case home
@@ -17,9 +16,19 @@ enum Catergory {
     case bills
 }
 
+enum Priority {
+    case low
+    case medium
+    case high
+    case critical
+}
+
 
 
 class Model: ObservableObject {
     @Published var taskName = ""
     @Published var taskCategory = ""
+    @Published var priority = ""
+
+    @Published var arrayOfTask = [String]()
 }

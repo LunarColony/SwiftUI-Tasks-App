@@ -15,7 +15,6 @@
 		E92AA60824D9C08B0086E6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92AA60624D9C08B0086E6D4 /* LaunchScreen.storyboard */; };
 		E92AA61024D9C22E0086E6D4 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92AA60F24D9C22E0086E6D4 /* AppView.swift */; };
 		E930941E24DCB0850065561E /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930941D24DCB0850065561E /* AppModel.swift */; };
-		E930942024DCB1540065561E /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930941F24DCB1540065561E /* AppController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		E92AA60924D9C08B0086E6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E92AA60F24D9C22E0086E6D4 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		E930941D24DCB0850065561E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
-		E930941F24DCB1540065561E /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 				E92AA5FD24D9C0890086E6D4 /* SceneDelegate.swift */,
 				E92AA5FF24D9C0890086E6D4 /* ContentView.swift */,
 				E92AA60F24D9C22E0086E6D4 /* AppView.swift */,
-				E930941F24DCB1540065561E /* AppController.swift */,
 				E930941D24DCB0850065561E /* AppModel.swift */,
 				E92AA60124D9C08B0086E6D4 /* Assets.xcassets */,
 				E92AA60624D9C08B0086E6D4 /* LaunchScreen.storyboard */,
@@ -160,7 +157,6 @@
 				E92AA5FE24D9C0890086E6D4 /* SceneDelegate.swift in Sources */,
 				E930941E24DCB0850065561E /* AppModel.swift in Sources */,
 				E92AA60024D9C0890086E6D4 /* ContentView.swift in Sources */,
-				E930942024DCB1540065561E /* AppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
