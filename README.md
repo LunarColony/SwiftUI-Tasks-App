@@ -11,6 +11,8 @@ I literally spent hours and hours learning and trying to understand how to share
 - Finally figured out how to add user input to a list 🥳.
 - Seperated the model from the view.
 
+# Demo
+(Gif)[http://g.recordit.co/xusPI7656s.gif]
 
 # Things TODO
 - Give the user the option to select a catergory for each task.
