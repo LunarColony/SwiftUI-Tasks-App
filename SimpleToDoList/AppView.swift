@@ -10,9 +10,10 @@ import SwiftUI
 
 struct AppView: View {
     @ObservedObject var data = Model()
-    var task = Model.Task()
     @State var showViewTwo = false
     @State var categoryTypes = ["Home", "Work", "Personal", "Business"]
+    
+    var task = Model.Task()
 
     var body: some View {
         NavigationView {
