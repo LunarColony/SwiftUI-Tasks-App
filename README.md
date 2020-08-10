@@ -12,10 +12,7 @@ I literally spent hours and hours learning and trying to understand how to share
 - Seperated the model from the view.
 
 # Demo
-![Gif](https://user-images.githubusercontent.com/64978825/89781956-37c57780-db0c-11ea-8e20-522b772bf5b0.gif)
-
-
-
+![OyRiAVPw5q](https://user-images.githubusercontent.com/64978825/89784571-cd630600-db10-11ea-8450-3c71fe9b8cb7.gif)
 
 # Things TODO
 - [x] Give the user the option to select a catergory for each task.
