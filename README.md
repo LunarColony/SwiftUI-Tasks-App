@@ -16,7 +16,7 @@ I literally spent hours and hours learning and trying to understand how to share
 
 
 # Things TODO
-- [ ] Give the user the option to select a catergory for each task.
+- [x] Give the user the option to select a catergory for each task.
 - [x] Add priority ratings from low to critical.
 - [ ] Implement a search feature.
 - [ ] Implement time stamps for each task.
