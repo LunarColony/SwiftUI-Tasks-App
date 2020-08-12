@@ -18,5 +18,5 @@ I literally spent hours and hours learning and trying to understand how to share
 - [x] Give the user the option to select a catergory for each task.
 - [x] Add priority ratings from low to critical.
 - [ ] Implement a search feature.
-- [ ] Implement time stamps for each task.
+- [ ] Implement time stamps for each task and task descriptions.
 - [ ] Implement sub-tasks within Parent task, this will inform the user the progression stage of the task 📊.
