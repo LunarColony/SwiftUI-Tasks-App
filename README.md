@@ -1,4 +1,5 @@
 #  ✅ SimpleToDoList
+A simple todo list app created using SwiftUI. 
 
 # Developer Notes
 I decided to start this project in hopes of gaining more understanding of SwiftUI, I plan to also complete my previous repository regarding the weather app soon, but, this side project is necessary to further enhance my skills.
