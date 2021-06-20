@@ -1,6 +1,9 @@
 #  ✅ SimpleToDoList
 A simple todo list app created using SwiftUI. 
 
+# Developer Notes
+I've recently completed my studies and plan on continuing this project in the coming months
+
 # Update
 - ~~You can currently add user input to the list however you can't remove an item from the list.~~
 - ~~The code quality and structure is artocious, but somehow it works 🤷‍♂️~~
